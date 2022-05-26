@@ -6,15 +6,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.site-container{
+.site-container {
   min-height: 100vh;
 }
 main {
   flex: 1;
 }
-.btn-primary{
+.btn-primary {
   background-color: #f0c040;
-  color:#000000;
+  color: #000000;
 }
 .products {
   display: flex;
@@ -32,9 +32,12 @@ main {
 .product-info {
   padding: 1rem;
 }
-.rating span{
+.rating span {
   color: #ffc000;
 }
-.img-large{
+.img-large {
   max-width: 100%;
+}
+.img-thumbnail {
+  height: 80px;
 }
