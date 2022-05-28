@@ -1,0 +1,21 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "description": "# Items 1. install Tools 2. create-react-app 3. create-git-repository",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install --legacy-peer-deps && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamidakbari/mern-amazona.git"
+  },
+  "author": "hamid akbari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamidakbari/mern-amazona/issues"
+  },
+  "homepage": "https://github.com/hamidakbari/mern-amazona#readme"
+}
